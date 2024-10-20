@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+font-size: 0px;
+width: 100%;
+max-width: 1200px;
+min-height: 53px;
+margin: 0 auto;
+}
+
+main {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+nav {
+    display: inline-block;
+    padding: 38px 155px 0px 155px;
+}
+
+li {
+display: inline-block;
+}
+
+.logo {
+    width: 150px;
+margin: 30px 0px 0px 0px; 
+}
+
+.login {
+min-width: 100px;
+min-height: 35px;
+border-radius: 6px;
+background: #46A358;
+border: 0px;
+margin: 30px 0px 20px 0px; 
+color: #FFFFFF;
+padding: 7px 20px;
+}
+
+button span {
+padding: 8px 0px 8px 4px;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.11px;
+}
+
+.home {
+font-weight: 700;
+font-style: normal;
+font-size: 16px;
+line-height: 20.11px;
+color: #3D3D3D;
+border-bottom: 3px solid #46A358;
+padding: 3px 0px 27px 1px;
+}
+
+li a{
+font-size: 16px;
+font-weight: 400;
+line-height: 20.11px;
+color: #3D3D3D;
+padding: 3px 0px 30px 50px;
+text-decoration: none;
+}
+
+nav ul{
+margin: 8px 150px 0px 150px;
+}
+
+hr {
+border: 1px solid #46A35880;
+margin-bottom: 13px; 
+}
+
+.mainBanner {
+background: #F5F5F5;
+display: flex;
+}
+
+div {
+padding: 68px 90px 60px 40px;
+}
+
+.welcomeText{
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+color: #3D3D3D;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding-bottom: 8px;
+}
+
+h1 {
+font-weight: 700;
+font-size: 70px;
+color: #3D3D3D;
+text-transform: uppercase;
+padding-bottom: 6px;
+}
+
+h1 span {
+color: #46A358;
+padding-left: 26px;
+}
+
+.informationText {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: #727272;
+padding-bottom: 50px;
+}
+
+
+div button {
+padding: 12px 26px ;    
+background: #46A358;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+color: #FFFFFF;
+border: 0px;
+border-radius: 6px;
+}
+
+.flower {
+min-width: 507px;
+min-height: 450px;
+}
