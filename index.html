@@ -3,44 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenShop</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Plants</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/font.css">
+
 </head>
 <body>
- <header>
-    <a href="/"><img  class="logo" src="./img/logo.svg" alt="greenshop logo"></a>
-    <nav>
+    <div class="container clear-float">
+      <aside>
+        <h2>Categories</h2>
+        <div class="list">
         <ul>
-            <li>
-                <a class="home" href="/">Home</a>
+            <li class="categoriesText">
+                <a class="housePlants " href="/">House Plants</a>
             </li>
-            <li>
-                <a href="/">Shop</a>
+            <li class="categoriesText">
+                <a href="/">Potter Plants</a>
             </li>
-            <li>
-                <a href="/">Plant Care</a>
+            <li class="categoriesText">
+                <a href="/">Seeds</a>
             </li>
-            <li>
-                <a href="/">Blogs</a>
+            <li class="categoriesText">
+                <a href="/">Small Plants</a>
+            </li>
+            <li class="categoriesText">
+                <a href="/">Big Plants</a>
+            </li>
+            <li class="categoriesText">
+                <a href="/">Succulents</a>
+            </li>
+            <li class="categoriesText">
+                <a href="/">Trerrariums</a>
+            </li>
+            <li class="categoriesText">
+                <a href="/">Gardening</a>
+            </li>
+            <li class="categoriesText">
+                <a href="/">Accessories</a>
             </li>
         </ul>
-    </nav>
-    <button class="login"><img src="./img/Logout.png" alt="Logout" /><span>Login</span> </button>
-    <hr>
- </header>   
- <main>
-    <section class="mainBanner">
-        <div>
-            <p class="welcomeText">Welcome to GreenShop</p>
-            <h1>Let’s Make a Better<span>Planet</span></h1>
-            <p class="informationText">We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
-            <button>SHOP NOW</button>
+    </div>
+      </aside>  
+    </div>
+  <main>
+    <section class="clear-float">
+        <div class="tabs">
+            <a href="/" class="allPlants">All Plants</a>
+            <a href="/" class="headerText newArrivals">New Arrivals</a>
+            <a href="/" class="headerText">Sale</a>
         </div>
-        <img class="flower" src="./img/flowers.png" alt="flowers">
-    </section>
- </main>
+        <div class="sort headerText">
+            <p>Short by:</p>
+            <select>
+                <option>Default sorting</option>
+                <option>High Price</option>
+                <option>Low Price</option>
+            </select>
+        </div>
+    </section> 
+<section  class="clear-float products">
+    <article class="productItem">
+        <a href="/">
+         <div class="productItem-head">
+            <img src="./img/fl1.png" alt="Barberton Daisy">
+         </div>
+         <div class="productItem-body">
+            <h3>Barberton Daisy</h3>
+            <p class="productPrice">$119.00</p>
+         </div>
+        </a>
+    </article>
+    <article class="productItem">
+         <a href="/">
+         <div class="productItem-head">
+            <img class="flowers" src="./img/fl2.png" alt="Angel Wing Begonia">
+         </div>
+         <div class="productItem-body">
+            <h3>Angel Wing Begonia</h3>
+            <p class="productPrice">$169.00</p>
+         </div>
+        </a>
+    </article>
+    <article class="productItem">
+         <a href="/">
+         <div class="productItem-head">
+            <img class="flowers" src="./img/fl3.png" alt="African Violet">
+         </div>
+         <div class="productItem-body">
+            <h3>African Violet</h3>
+            <p class="productPrice">$199.00</p>
+         </div>
+        </a>
+    </article>
+
+    <article class="productItem">
+        <a href="/">
+         <div class="productItem-head">
+            <img class="flowers" src="./img/fl4.png" alt="Beach Spider Lily">
+         </div>
+         <div class="productItem-body">
+            <h3>Beach Spider Lily</h3>
+            <p class="productPrice">$129.00</p>
+         </div>
+        </a>
+    </article>
+
+<article class="productItem">
+        <a href="/">
+         <div class="productItem-head">
+            <img class="flowers" src="./img/fl5.png" alt="Blushing Bromeliad">
+         </div>
+         <div class="productItem-body">
+            <h3>Blushing Bromeliad</h3>
+            <p class="productPrice">$139.00</p>
+         </div>
+        </a>
+    </article>
+
+    <article class="productItem">
+        <a href="/">
+         <div class="productItem-head">
+            <img class="flowers" src="./img/fl6.png" alt="Aluminum Plant">
+         </div>
+         <div class="productItem-body">
+            <h3>Aluminum Plant</h3>
+            <p class="productPrice">$179.00</p>
+         </div>
+        </a>
+    </article>
+
+    <article class="productItem">
+        <a href="/">
+         <div class="productItem-head">
+            <img class="flowers" src="./img/fl7.png" alt="Bird's Nest Fern">
+         </div>
+         <div class="productItem-body">
+            <h3>Bird's Nest Fern</h3>
+            <p class="productPrice">$99.00</p>
+         </div>
+        </a>
+    </article>
+
+    <article class="productItem">
+        <a href="/">
+         <div class="productItem-head">
+            <img class="flowers" src="./img/fl8.png" alt="Broadleaf Lady Palm">
+         </div>
+         <div class="productItem-body">
+            <h3>Broadleaf Lady Palm</h3>
+            <p class="productPrice">$59.00</p>
+         </div>
+        </a>
+    </article>
+
+<article class="productItem">
+        <a href="/">
+         <div class="productItem-head">
+            <img class="flowers" src="./img/fl9.png" alt="Chinese Evergreen">
+         </div>
+         <div class="productItem-body">
+            <h3>Chinese Evergreen</h3>
+            <p class="productPrice">$39.00</p>
+         </div>
+        </a>
+    </article>
+    <div class="pages">
+        <button class="firstPage"><a class="firstButton-text" href="/">1</a></button>
+        <button class="secondPage"><a href="/">2</a></button>
+        <button><a href="/">3</a></button>
+        <button class="fourthPage"><a href="/">4</a></button>
+        <button class="morePages"><a href="/"></a></button>
+    </div>
+</section>
+</main>
+<section>
+<a href="/"><img  class="superSale" src="./img/superSale.jpg" alt="superSale"></a>
+
+</section>
 </body>
 </html>
