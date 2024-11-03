@@ -43,179 +43,269 @@ table {
 	border-spacing: 0;
 }
 
-main {
-	display: flex;
-	width: 100%;
-	max-width: 1255px;
-	margin: 68px 94px 0px 94px;
-	flex-wrap: wrap;
-	}
-
-.itemsWrap {
-display: flex;
-align-items: center;
+.clear-float{
+    content: "";
+    clear: both;
 }
 
-.item {
-	display: flex;
-	align-items: center;
-	background: #FBFBFB;
-	height: 302px;
+.tabs{
+    float: left;
+    margin: 170px 200px 15px 0px;
 }
 
-.item h3 {
-	width: 150px;
-	text-align: right;
-	font-size: 18px;
-	font-weight: 900;
-	color: #3D3D3D;
-	padding-bottom: 8px;
-	text-transform: uppercase;
+.tabs a{
+    margin: 0px 20px;
+    min-width: 75px;
 }
 
-.item p {
-	width: 295px;
-	font-size: 14px;
-	font-weight: 400;
-	text-align: right;
-	color: #727272;
-	padding-bottom: 25px;
-}
-.item p span {
-	display: flex;
-	padding-top: 12px;
-	justify-content: flex-end;
-}
-.item .itemInfo {
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: column;
-	align-items: flex-end;
-	padding: 36px 30px 70px 0px;
-	background: #FBFBFB;
+.tabs a:first-child {
+    margin-left: 0px;
 }
 
-.item .flowerCard {
-	width: 287px;
-	position: relative;
-	top: -52px;
-}
-
-.item button {
-	display: flex;
-	width: 140px;
-	height: 40px;
-	border-radius: 6px;
-	background: #46A358;
-	border: 0px;
-	color: #FFFFFF;
-	font-size: 14px;
-	font-weight: 500;
-	justify-content: center; 
-	align-items: center;
-} 
-
-.item button img {
-	padding-left: 2px;
-}
-
-.secondCard {
-	margin-left: 28px;
-}
-
-.informationText {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-width: 1255px;
-margin-top: 138px;
-}
-
-.informationText h2{
-	font-size: 30px;
-	font-weight: 700;
-	text-align: center;
-	color: #3D3D3D;
-	padding-bottom: 15px;
-}
-
-.informationText p{
-font-size: 14px;
-font-weight: 400;
-text-align: center;
-color: #727272;
-padding-bottom: 35px;
-}
-
-.postsItem {
-	width: 268px;
-}
-
-.postText {
-	background: #FBFBFB;
-	padding: 9px 10px 12px 15px;
-}
-
-section div .dateText {
-font-size: 14px;
-font-weight: 500;
-text-align: left;
+.tabs a:hover {
+font-weight: 700;
+border-bottom: 2px solid #46A358;
 color: #46A358;
-padding-bottom: 4px;
 }
 
-.postText h3 {
-	font-size: 20px;
-	font-weight: 700;
-	color: #3D3D3D;
-	width: 190px;
-	padding-bottom: 5px;
+.sort{
+    float: right;
+    margin: 170px 30px 38px 0px;
 }
 
-.postText p{
-	font-size: 14px;
-	font-weight: 400;
-	text-align: left;
-	color: #727272;
-	width: 242px;
-	padding-bottom: 10px;
+.sort p {
+    float: left;
+    margin: 0;
 }
 
-.postText a {
-	display: flex;
-	text-decoration: none;
-	font-size: 14px;
-	font-weight: 500;
-	text-align: left;
-	color: #3D3D3D;
+select {
+    border: 0px;
 }
 
-.postText a:hover {
-	color: #46A358;
+.products {
+    padding-top: 45px;
 }
 
-.postText a img {
-	width: 16px;
-	padding-left: 3px;
+.productItem{
+    float: left;
+    margin-bottom: 95px;
+	border-top: 1px solid #FBFBFB;
 }
 
-.posts {
-	width: 268px;
-	display: flex;
-	flex-direction: column;
-	padding-right: 60px;
+.productItem:hover {
+	border-top: 1px solid #46A358;
 }
-.blog {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-	.bestHousePlants {
-		padding-right: 0px;
-	}	
 
-	.postText p span {
-		display: flex;
-		padding-top: 10px;
-	}
+.productItem-head {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 30px;
+}
+article {
+    margin-right: 30px;
+    margin-left: 5px;
+}
+article:nth-child(3n+3){
+    margin-right: 0px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+aside {
+    width: 310px;
+    float: left;
+    background: #FBFBFB;
+    margin: 170px 50px 0px 90px;
+}
+
+main {
+    width: calc(100% - 610px);
+    float: right;
+}
+
+h2 {
+font-weight: 700;
+font-size: 18px;
+text-align: left;
+color: #3D3D3D;
+padding: 14px 200px 20px 18px;
+}
+
+li a {
+font-size: 15px;
+font-weight: 400;
+color: #3D3D3D;
+}
+
+li a:hover{
+font-weight: 700;
+color: #46A358;
+}
+
+.housePlants {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.list {
+    padding: 0px 0px 360px 30px;
+}
+
+.superSale {
+width: 370px;
+height: 470px;
+float: right;
+margin: 0px 30px 208px 106px;
+}
+
+.allPlants {
+font-size: 15px;
+font-weight: 700;
+color: #46A358;
+border-bottom: 2px solid #46A358;
+padding-bottom: 9px;
+}
+
+.headerText{
+    font-size: 15px;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+
+.productItem-body{
+font-size: 16px;
+font-weight: 400;
+color: #3D3D3D;
+}
+
+.productPrice {
+font-size: 18px;
+font-weight: 700;
+color: #46A358;
+}
+
+.morePages::before{
+    content: ">";
+}
+
+.pages {
+float: right;
+margin: 5px 5px 80px 450px;
+}
+
+div button:hover {
+    background: #46A358;
+    color: #FFFFFF;
+}
+
+button a:hover {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+button {
+font-weight: 300;
+min-width: 35px;
+min-height: 35px;
+border-radius: 4px;
+border: 1px solid #E5E5E5;
+}
+
+button a{
+    color: #3D3D3D;
+    font-size: 18px;
+}
+
+.firstPage{
+background: #46A358;
+border-radius: 4px;
+border: 0px;
+}
+
+.firstButton-text{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.secondPage {
+    margin: 0px 10px;
+}
+
+.fourthPage {
+    margin: 0px 10px;
+}
+
+.categoriesText {
+    padding-bottom: 22px;
+}
+
+.hover-icons {
+    display: none;
+}
+
+.first-hover-icons {
+   position: absolute;
+   top: 505px;
+   left: 670px;
+  }
+
+  .productItem:hover > .hover-icons {
+	display: block;
+  }
+
+  .saleProcent {
+font-size: 16px;
+font-weight: 500;
+width: 80px;
+color: #FFFFFF;
+background: #46A358;
+text-align: center;
+padding: 6px 8px;
+position: absolute;
+top: 275px;
+  }
+
+s {
+font-size: 18px;
+font-weight: 400;
+color: #A5A5A5;
+padding-left: 16px;
+}
+
+.designIcon {
+    display: inline-block;
+    width: 35px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0px 5px;
+    border-radius: 4px;
+}
+
+.hover-icons svg:hover{
+color: #46A358;
+}
+
+.hover-icons svg{
+    color: #3D3D3D;
+}
+
+.second-hover-icons {
+    position: absolute;
+    top: 505px;
+    left: 950px;
+}
+
+.third-hover-icons {
+    position: absolute;
+    top: 505px;
+    left: 1235px;
+}
