@@ -280,6 +280,7 @@ color: #46A358;
 .footer-text {
   display: flex;
   justify-content: center;
+  height: 30px;
 }
 
 .footer-text p {
