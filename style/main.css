@@ -11,300 +11,237 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
-    font-family: 'Cera Pro';
-    font-weight: normal;
+	line-height: 1;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.clear-float{
-    content: "";
-    clear: both;
+body {
+  font-family: 'Cera Pro';
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
 }
 
-.tabs{
-    float: left;
-    margin: 170px 200px 15px 0px;
-}
-
-.tabs a{
-    margin: 0px 20px;
-    min-width: 75px;
-}
-
-.tabs a:first-child {
-    margin-left: 0px;
-}
-
-.tabs a:hover {
-font-weight: 700;
-border-bottom: 2px solid #46A358;
-color: #46A358;
-}
-
-.sort{
-    float: right;
-    margin: 170px 30px 38px 0px;
-}
-
-.sort p {
-    float: left;
-    margin: 0;
-}
-
-select {
-    border: 0px;
-}
-
-.products {
-    padding-top: 45px;
-}
-
-.productItem{
-    float: left;
-    margin-bottom: 95px;
-  border-top: 1px solid #FBFBFB;
-}
-
-.productItem:hover {
-  border-top: 1px solid #46A358;
-}
-
-.productItem-head {
-    width: 250px;
-    height: 250px;
-    padding-bottom: 30px;
-}
-article {
-    margin-right: 30px;
-    margin-left: 5px;
-}
-article:nth-child(3n+3){
-    margin-right: 0px;
-}
-
-.container {
-    width: 1140px;
-    margin: 0 auto;
-}
-
-a{
-    text-decoration: none;
-}
-
-aside {
-    width: 310px;
-    float: left;
-    background: #FBFBFB;
-    margin: 170px 50px 0px 90px;
+header {
+font-size: 0px;
+width: 100%;
+max-width: 1200px;
+min-height: 53px;
+margin: 0 auto;
 }
 
 main {
-    width: calc(100% - 610px);
-    float: right;
-}
-
-h2 {
-font-weight: 700;
-font-size: 18px;
-text-align: left;
-color: #3D3D3D;
-padding: 14px 200px 20px 18px;
-}
-
-li a {
-font-size: 15px;
-font-weight: 400;
-color: #3D3D3D;
-}
-
-li a:hover{
-font-weight: 700;
-color: #46A358;
-}
-
-.housePlants {
-    color: #46A358;
-    font-weight: 700;
-}
-
-.list {
-    padding: 0px 0px 360px 30px;
-}
-
-.superSale {
-width: 370px;
-height: 470px;
-float: right;
-margin: 0px 30px 208px 106px;
-}
-
-.allPlants {
-font-size: 15px;
-font-weight: 700;
-color: #46A358;
-border-bottom: 2px solid #46A358;
-padding-bottom: 9px;
-}
-
-.headerText{
-    font-size: 15px;
-    font-weight: 400;
-    color: #3D3D3D;
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
 }
 
 
-.productItem-body{
-font-size: 16px;
-font-weight: 400;
-color: #3D3D3D;
+.logo {
+    width: 150px;
+margin: 30px 0px 0px 0px; 
 }
 
-.productPrice {
-font-size: 18px;
-font-weight: 700;
-color: #46A358;
-}
-
-.morePages::before{
-    content: ">";
-}
-
-.pages {
-float: right;
-margin: 5px 5px 80px 450px;
-}
-
-div button:hover {
-    background: #46A358;
-    color: #FFFFFF;
-}
-
-button a:hover {
-    color: #FFFFFF;
-    font-weight: 700;
-}
-
-button {
-font-weight: 300;
-min-width: 35px;
+.login {
+min-width: 100px;
 min-height: 35px;
-border-radius: 4px;
-border: 1px solid #E5E5E5;
-}
-
-button a{
-    color: #3D3D3D;
-    font-size: 18px;
-}
-
-.firstPage{
+border-radius: 6px;
 background: #46A358;
-border-radius: 4px;
 border: 0px;
+margin: 30px 0px 20px 0px; 
+color: #FFFFFF;
+padding: 7px 20px;
 }
 
-.firstButton-text{
-    font-size: 18px;
-    font-weight: 700;
-    color: #FFFFFF;
-}
-
-.secondPage {
-    margin: 0px 10px;
-}
-
-.fourthPage {
-    margin: 0px 10px;
-}
-
-.categoriesText {
-    padding-bottom: 22px;
-}
-
-.hover-icons {
-    display: none;
-}
-
-.first-hover-icons {
-   position: absolute;
-   top: 505px;
-   left: 670px;
-  }
-
-  .productItem:hover > .hover-icons {
-  display: block;
-  }
-
-  .saleProcent {
+button span {
+padding: 8px 0px 8px 4px;
 font-size: 16px;
 font-weight: 500;
-width: 80px;
-color: #FFFFFF;
+line-height: 20.11px;
+}
+
+.first-menu{
+font-size: 16px;
+font-weight: 400;
+color: #3D3D3D;
+padding: 3px 0px 26px 0px;
+margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu{
+margin: 8px 270px 0px 270px;
+display: inline-block;
+}
+
+hr {
+border: 1px solid #46A35880;
+margin-bottom: 13px; 
+}
+
+.mainBanner {
+background: #F5F5F5;
+display: flex;
+}
+
+.textBanner {
+padding: 68px 90px 60px 40px;
+}
+
+.welcomeText{
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+color: #3D3D3D;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding-bottom: 8px;
+}
+
+h1 {
+font-weight: 700;
+font-size: 70px;
+color: #3D3D3D;
+text-transform: uppercase;
+padding-bottom: 6px;
+}
+
+h1 span {
+color: #46A358;
+padding-left: 26px;
+}
+
+.informationText {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: #727272;
+padding-bottom: 50px;
+}
+
+li {
+    display: inline-block;
+    }
+
+.first-menu:hover{
+ border-bottom: 3px solid #46A358;
+font-weight: 700;
+font-style: normal;
+font-size: 16px;
+color: #3D3D3D;
+}
+
+div button {
+padding: 12px 26px ;    
 background: #46A358;
-text-align: center;
-padding: 6px 8px;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+color: #FFFFFF;
+border: 0px;
+border-radius: 6px;
+}
+
+.flower {
+min-width: 507px;
+min-height: 450px;
+}
+
+.second-menu li a{
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #3D3D3D;
+padding: 8px 0px 8px 15px;
+display: flex;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.second-menu {
+  display: none;
+}
+
+.menu ul li:hover > .second-menu {
+display: block;
 position: absolute;
-top: 275px;
+top: 112px;
+left: 720px;
+}
+
+.menu ul li ul {
+    background: #EDF6EE;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 188px;
+}
+
+svg{
+  padding: 0px 6px 0px 85px ;
+}
+
+.third-menu {
+    position: absolute;
+    top: 112px;
+    left: 910px;
+    display: none;
   }
 
-s {
-font-size: 18px;
-font-weight: 400;
-color: #A5A5A5;
-padding-left: 16px;
-}
+  .second-menu ul li:hover > .third-menu {
+    display: block;
+  }
 
-.designIcon {
-    display: inline-block;
-    width: 35px;
-    background-color: #FFFFFF;
-    text-align: center;
-    margin: 0px 5px;
-    border-radius: 4px;
-}
-.hover-icons svg:hover{
-    color: #46A358;
+  .third-menu li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #3D3D3D;
+    padding: 8px 0px 8px 15px;
+    display: flex;
     }
+
+    .next-list:hover {
+    background: #1A712A;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    }
+
     
-    .hover-icons svg{
-        color: #3D3D3D;
-    }
-    
-    .second-hover-icons {
-        position: absolute;
-        top: 505px;
-        left: 950px;
-    }
-    
-    .third-hover-icons {
-        position: absolute;
-        top: 505px;
-        left: 1235px;
-    }
