@@ -1,0 +1,311 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+    font-family: 'Cera Pro';
+    font-weight: normal;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.categoriesSecondPg{
+    display: flex;
+}
+
+.headerTextSecondPg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondPage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tabs{
+    margin: 170px 200px 15px 0px;
+    display: flex
+}
+
+.tabs a{
+    margin: 0px 20px;
+    min-width: 75px;
+}
+
+.tabs a:hover {
+font-weight: 700;
+border-bottom: 2px solid #46A358;
+color: #46A358;
+}
+
+.sort{
+    margin: 170px 30px 38px 0px;
+}
+
+.sort p {
+    margin: 0;
+}
+
+.selectItem {
+    border: 0px;
+}
+
+.products {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 855px;
+}
+
+.productItem{
+    margin-bottom: 95px;
+  border-top: 1px solid #FBFBFB;
+  margin-right: 30px;
+margin-left: 5px;
+}
+
+.productItem:hover {
+  border-top: 1px solid #46A358;
+}
+
+.productItem-head {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 30px;
+}
+
+.containerSecondPg  {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+aside {
+    width: 310px;
+    background: #FBFBFB;
+    margin: 158px 50px 0px 90px;
+    max-height: 775px;
+}
+
+.mainSecondPg {
+    width: calc(100% - 610px);
+}
+
+.h2ItemSecondPg {
+font-weight: 700;
+font-size: 18px;
+text-align: left;
+color: #3D3D3D;
+padding: 14px 200px 20px 18px;
+}
+
+.categoriesText a {
+font-size: 15px;
+font-weight: 400;
+color: #3D3D3D;
+}
+
+.categoriesText a:hover{
+font-weight: 700;
+color: #46A358;
+}
+
+.housePlants {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.listSecondPg {
+    padding: 0px 0px 360px 30px;
+}
+
+.superSale {
+width: 370px;
+height: 470px;
+/*margin: 0px 30px 208px 106px;*/
+}
+
+.allPlants {
+font-size: 15px;
+font-weight: 700;
+color: #46A358;
+border-bottom: 2px solid #46A358;
+padding-bottom: 9px;
+}
+
+.headerText{
+    font-size: 15px;
+    font-weight: 400;
+    color: #3D3D3D;
+    display: flex;
+}
+
+
+.productItem-body{
+font-size: 16px;
+font-weight: 400;
+color: #3D3D3D;
+}
+
+.productPrice {
+font-size: 18px;
+font-weight: 700;
+color: #46A358;
+}
+
+.morePages::before{
+    content: ">";
+}
+
+.pages {
+margin: 5px 5px 80px 616px;
+}
+
+.pages .buttonItemSecondPg:hover {
+    background: #46A358;
+    color: #FFFFFF;
+}
+
+.buttonItemSecondPg a:hover {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.buttonItemSecondPg {
+font-weight: 300;
+min-width: 35px;
+min-height: 35px;
+border-radius: 4px;
+border: 1px solid #E5E5E5;
+}
+
+.buttonItemSecondPg a{
+    color: #3D3D3D;
+    font-size: 18px;
+}
+
+.firstPage{
+background: #46A358;
+border-radius: 4px;
+border: 0px;
+}
+
+.firstButton-text{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.secondPages {
+    margin: 0px 10px;
+}
+
+.fourthPage {
+    margin: 0px 10px;
+}
+
+.categoriesText {
+    padding-bottom: 22px;
+}
+
+.hover-icons {
+    display: none;
+}
+
+.first-hover-icons {
+   position: absolute;
+   top: 505px;
+   left: 670px;
+  }
+
+  .productItem:hover > .hover-icons {
+  display: block;
+  }
+
+  .saleProcent {
+font-size: 16px;
+font-weight: 500;
+width: 80px;
+color: #FFFFFF;
+background: #46A358;
+text-align: center;
+padding: 6px 8px;
+position: absolute;
+top: 275px;
+  }
+
+s {
+font-size: 18px;
+font-weight: 400;
+color: #A5A5A5;
+padding-left: 16px;
+}
+
+.designIcon {
+    display: inline-block;
+    width: 35px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0px 5px;
+    border-radius: 4px;
+}
+.hover-icons svg:hover{
+    color: #46A358;
+    }
+    
+    .hover-icons svg{
+        color: #3D3D3D;
+    }
+    
+    .second-hover-icons {
+        position: absolute;
+        top: 505px;
+        left: 950px;
+    }
+    
+    .third-hover-icons {
+        position: absolute;
+        top: 505px;
+        left: 1235px;
+    }

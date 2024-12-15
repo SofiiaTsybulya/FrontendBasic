@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Cera Pro';
+    font-weight: normal;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+.close {
+  display: flex;
+  flex-direction: row;
+justify-content: right;
+padding: 13px 13px 0px 0px;
+}
+
+.titleTextRegister {
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 21px 0px 40px 0px;
+}
+
+.titleTextRegister h1{
+font-size: 20px;
+font-weight: 500;
+text-align: left;
+color: #3d3d3d;
+padding-right: 10px;
+}
+
+.titleTextRegister .register {
+  color: #46A358;
+ padding-right: 0px;
+}
+
+.titleTextRegister .register::before {
+  content: "I";
+  color: #3d3d3d;
+  padding-right: 10px;
+font-size: 18px;
+font-weight: 250;
+}
+
+.containerRegister {
+  padding: 0px 100px 40px 100px;
+}
+
+.itemRegister p{
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  color: #3d3d3d;
+  padding-bottom: 14px;
+}
+
+.itemRegister input{
+font-size: 14px;
+font-weight: 400;
+color: #A5A5A5;
+padding-left: 14px;
+padding-right: 35px;
+display: flex;
+align-content: center;
+width: 300px;
+min-height: 40px;
+box-sizing: border-box;
+margin-bottom: 16px;
+border: 1px solid #EAEAEA;
+border-radius: 5px;
+}
+
+.hideItem {
+  position: absolute;
+  top: 262px;
+  left: 370px;
+}
+
+.itemRegister button{
+width: 300px;
+min-height: 45px;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 700;
+background-color: #46A358;
+border: none;
+border-radius: 5px;
+margin-bottom: 36px;
+cursor: pointer;
+}
+
+.additionalItemRegister {
+  min-height: 138px;
+}
+
+.additionalItemRegister hr {
+  width: 290px;
+  color: #EAEAEA;
+}
+
+.secondText {
+  background-color: #FFFFFF;
+  color: #3d3d3d;
+  font-size: 13px;
+  font-weight: 400; 
+  width: 108px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 445px;
+  left: 198px;
+}
+
+.additionalItemRegister button {
+  width: 300px;
+  min-height: 40px;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  margin-bottom: 15px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #727272;
+}
+
+.googleInputItem {
+  margin-top: 26px;
+}
+
+.googleItem {
+  position: absolute;
+  top: 497px;
+  left: 160px;
+}
+
+.facebookItem {
+  position: absolute;
+  top: 552px;
+  left: 158px;
+}
+
+.lineItem {
+  display: flex;
+  background-color: #46A358;
+  height: 10px;
+}
+
+.itemRegister input:hover {
+    border: 1px solid #46A358;
+}
+
+.additionalItemRegister button:hover {
+    background-color: #46A358;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.close {
+    cursor: pointer;
+}
